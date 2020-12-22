@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF20AA56258F1277006954FA /* CatsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF20AA55258F1277006954FA /* CatsHeader.swift */; };
+		EF20AA5B258F1856006954FA /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF20AA5A258F1856006954FA /* Color+Extension.swift */; };
+		EF20AA60258F187A006954FA /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF20AA5F258F187A006954FA /* UIView+Extension.swift */; };
+		EF20AA6A258F1CF7006954FA /* CatDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF20AA69258F1CF7006954FA /* CatDetailsViewController.swift */; };
+		EF20AA72258F21B8006954FA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF20AA71258F21B8006954FA /* Constants.swift */; };
+		EF30132625915E2D00C80234 /* CatDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF30132525915E2D00C80234 /* CatDetailCell.swift */; };
+		EF30132B2591663300C80234 /* CatTraits.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF30132A2591663300C80234 /* CatTraits.swift */; };
+		EF30133025918CB700C80234 /* CatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF30132F25918CB700C80234 /* CatViewModel.swift */; };
+		EF374D662591B69500529F79 /* CatTraitsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF374D652591B69500529F79 /* CatTraitsViewModel.swift */; };
+		EF55CCA8259033C4006E4A52 /* API-keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF55CCA7259033C4006E4A52 /* API-keys.plist */; };
+		EF55CCAE2590380A006E4A52 /* CatsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF55CCAD2590380A006E4A52 /* CatsService.swift */; };
+		EF55CCB32590383C006E4A52 /* PlistService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF55CCB22590383C006E4A52 /* PlistService.swift */; };
+		EF55CCB8259038B0006E4A52 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF55CCB7259038B0006E4A52 /* APIKey.swift */; };
+		EF55CCBD2590396B006E4A52 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF55CCBC2590396B006E4A52 /* Cat.swift */; };
+		EF55CCC225903A76006E4A52 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF55CCC125903A76006E4A52 /* APIError.swift */; };
+		EF7C66C0258ECBE600B322B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7C66BF258ECBE600B322B6 /* AppDelegate.swift */; };
+		EF7C66C2258ECBE600B322B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7C66C1258ECBE600B322B6 /* SceneDelegate.swift */; };
+		EF7C66C4258ECBE600B322B6 /* CatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7C66C3258ECBE600B322B6 /* CatsViewController.swift */; };
+		EF7C66C9258ECBE700B322B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7C66C8258ECBE700B322B6 /* Assets.xcassets */; };
+		EF7C66CC258ECBE700B322B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7C66CA258ECBE700B322B6 /* LaunchScreen.storyboard */; };
+		EF7C66D7258ECBE700B322B6 /* PlatziChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7C66D6258ECBE700B322B6 /* PlatziChallengeTests.swift */; };
+		EF7C66E2258ECBE700B322B6 /* PlatziChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7C66E1258ECBE700B322B6 /* PlatziChallengeUITests.swift */; };
+		EF7DE468258EDBA600D9CCF4 /* CatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7DE467258EDBA600D9CCF4 /* CatCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF7C66D3258ECBE700B322B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF7C66B4258ECBE600B322B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF7C66BB258ECBE600B322B6;
+			remoteInfo = PlatziChallenge;
+		};
+		EF7C66DE258ECBE700B322B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF7C66B4258ECBE600B322B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF7C66BB258ECBE600B322B6;
+			remoteInfo = PlatziChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF20AA55258F1277006954FA /* CatsHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsHeader.swift; sourceTree = "<group>"; };
+		EF20AA5A258F1856006954FA /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		EF20AA5F258F187A006954FA /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		EF20AA69258F1CF7006954FA /* CatDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatDetailsViewController.swift; sourceTree = "<group>"; };
+		EF20AA71258F21B8006954FA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EF30132525915E2D00C80234 /* CatDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatDetailCell.swift; sourceTree = "<group>"; };
+		EF30132A2591663300C80234 /* CatTraits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatTraits.swift; sourceTree = "<group>"; };
+		EF30132F25918CB700C80234 /* CatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatViewModel.swift; sourceTree = "<group>"; };
+		EF374D652591B69500529F79 /* CatTraitsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatTraitsViewModel.swift; sourceTree = "<group>"; };
+		EF55CCA7259033C4006E4A52 /* API-keys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "API-keys.plist"; sourceTree = "<group>"; };
+		EF55CCAD2590380A006E4A52 /* CatsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsService.swift; sourceTree = "<group>"; };
+		EF55CCB22590383C006E4A52 /* PlistService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistService.swift; sourceTree = "<group>"; };
+		EF55CCB7259038B0006E4A52 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		EF55CCBC2590396B006E4A52 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		EF55CCC125903A76006E4A52 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		EF7C66BC258ECBE600B322B6 /* PlatziChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlatziChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7C66BF258ECBE600B322B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF7C66C1258ECBE600B322B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EF7C66C3258ECBE600B322B6 /* CatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsViewController.swift; sourceTree = "<group>"; };
+		EF7C66C8258ECBE700B322B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF7C66CB258ECBE700B322B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF7C66CD258ECBE700B322B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7C66D2258ECBE700B322B6 /* PlatziChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlatziChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7C66D6258ECBE700B322B6 /* PlatziChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatziChallengeTests.swift; sourceTree = "<group>"; };
+		EF7C66D8258ECBE700B322B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7C66DD258ECBE700B322B6 /* PlatziChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlatziChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7C66E1258ECBE700B322B6 /* PlatziChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatziChallengeUITests.swift; sourceTree = "<group>"; };
+		EF7C66E3258ECBE700B322B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7DE467258EDBA600D9CCF4 /* CatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF7C66B9258ECBE600B322B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7C66CF258ECBE700B322B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7C66DA258ECBE700B322B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF20AA67258F1CCA006954FA /* CatDetails */ = {
+			isa = PBXGroup;
+			children = (
+				EF29BC9A259073BC00601159 /* CatDetailCell */,
+				EF20AA69258F1CF7006954FA /* CatDetailsViewController.swift */,
+			);
+			path = CatDetails;
+			sourceTree = "<group>";
+		};
+		EF29BC9A259073BC00601159 /* CatDetailCell */ = {
+			isa = PBXGroup;
+			children = (
+				EF30132525915E2D00C80234 /* CatDetailCell.swift */,
+			);
+			path = CatDetailCell;
+			sourceTree = "<group>";
+		};
+		EF55CCA62590339E006E4A52 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				EF55CCA7259033C4006E4A52 /* API-keys.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		EF55CCAC259037F6006E4A52 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EF55CCB22590383C006E4A52 /* PlistService.swift */,
+				EF55CCAD2590380A006E4A52 /* CatsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EF55CCCD25906F35006E4A52 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EF20AA5A258F1856006954FA /* Color+Extension.swift */,
+				EF20AA5F258F187A006954FA /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EF7C66B3258ECBE600B322B6 = {
+			isa = PBXGroup;
+			children = (
+				EF7C66BE258ECBE600B322B6 /* PlatziChallenge */,
+				EF7C66D5258ECBE700B322B6 /* PlatziChallengeTests */,
+				EF7C66E0258ECBE700B322B6 /* PlatziChallengeUITests */,
+				EF7C66BD258ECBE600B322B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF7C66BD258ECBE600B322B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF7C66BC258ECBE600B322B6 /* PlatziChallenge.app */,
+				EF7C66D2258ECBE700B322B6 /* PlatziChallengeTests.xctest */,
+				EF7C66DD258ECBE700B322B6 /* PlatziChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF7C66BE258ECBE600B322B6 /* PlatziChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				EF55CCA62590339E006E4A52 /* Configuration */,
+				EF7C66FB258ED71600B322B6 /* Utilities */,
+				EF55CCCD25906F35006E4A52 /* Extensions */,
+				EF55CCAC259037F6006E4A52 /* Services */,
+				EF7C66FA258ED70D00B322B6 /* Models */,
+				EF7C66F9258ED6E100B322B6 /* ViewModels */,
+				EF7C66F8258ED6D500B322B6 /* ViewControllers */,
+				EF7C66BF258ECBE600B322B6 /* AppDelegate.swift */,
+				EF7C66C1258ECBE600B322B6 /* SceneDelegate.swift */,
+				EF7C66C8258ECBE700B322B6 /* Assets.xcassets */,
+				EF7C66CA258ECBE700B322B6 /* LaunchScreen.storyboard */,
+				EF7C66CD258ECBE700B322B6 /* Info.plist */,
+			);
+			path = PlatziChallenge;
+			sourceTree = "<group>";
+		};
+		EF7C66D5258ECBE700B322B6 /* PlatziChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF7C66D6258ECBE700B322B6 /* PlatziChallengeTests.swift */,
+				EF7C66D8258ECBE700B322B6 /* Info.plist */,
+			);
+			path = PlatziChallengeTests;
+			sourceTree = "<group>";
+		};
+		EF7C66E0258ECBE700B322B6 /* PlatziChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF7C66E1258ECBE700B322B6 /* PlatziChallengeUITests.swift */,
+				EF7C66E3258ECBE700B322B6 /* Info.plist */,
+			);
+			path = PlatziChallengeUITests;
+			sourceTree = "<group>";
+		};
+		EF7C66F8258ED6D500B322B6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF20AA67258F1CCA006954FA /* CatDetails */,
+				EF7DE465258EDB3E00D9CCF4 /* Cats */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EF7C66F9258ED6E100B322B6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EF30132F25918CB700C80234 /* CatViewModel.swift */,
+				EF374D652591B69500529F79 /* CatTraitsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EF7C66FA258ED70D00B322B6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EF55CCBC2590396B006E4A52 /* Cat.swift */,
+				EF30132A2591663300C80234 /* CatTraits.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EF7C66FB258ED71600B322B6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EF55CCB7259038B0006E4A52 /* APIKey.swift */,
+				EF55CCC125903A76006E4A52 /* APIError.swift */,
+				EF20AA71258F21B8006954FA /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		EF7DE465258EDB3E00D9CCF4 /* Cats */ = {
+			isa = PBXGroup;
+			children = (
+				EF7DE466258EDB4D00D9CCF4 /* CatCell */,
+				EF7C66C3258ECBE600B322B6 /* CatsViewController.swift */,
+				EF20AA55258F1277006954FA /* CatsHeader.swift */,
+			);
+			path = Cats;
+			sourceTree = "<group>";
+		};
+		EF7DE466258EDB4D00D9CCF4 /* CatCell */ = {
+			isa = PBXGroup;
+			children = (
+				EF7DE467258EDBA600D9CCF4 /* CatCell.swift */,
+			);
+			path = CatCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF7C66BB258ECBE600B322B6 /* PlatziChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7C66E6258ECBE700B322B6 /* Build configuration list for PBXNativeTarget "PlatziChallenge" */;
+			buildPhases = (
+				EF7C66B8258ECBE600B322B6 /* Sources */,
+				EF7C66B9258ECBE600B322B6 /* Frameworks */,
+				EF7C66BA258ECBE600B322B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlatziChallenge;
+			productName = PlatziChallenge;
+			productReference = EF7C66BC258ECBE600B322B6 /* PlatziChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF7C66D1258ECBE700B322B6 /* PlatziChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7C66E9258ECBE700B322B6 /* Build configuration list for PBXNativeTarget "PlatziChallengeTests" */;
+			buildPhases = (
+				EF7C66CE258ECBE700B322B6 /* Sources */,
+				EF7C66CF258ECBE700B322B6 /* Frameworks */,
+				EF7C66D0258ECBE700B322B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF7C66D4258ECBE700B322B6 /* PBXTargetDependency */,
+			);
+			name = PlatziChallengeTests;
+			productName = PlatziChallengeTests;
+			productReference = EF7C66D2258ECBE700B322B6 /* PlatziChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF7C66DC258ECBE700B322B6 /* PlatziChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7C66EC258ECBE700B322B6 /* Build configuration list for PBXNativeTarget "PlatziChallengeUITests" */;
+			buildPhases = (
+				EF7C66D9258ECBE700B322B6 /* Sources */,
+				EF7C66DA258ECBE700B322B6 /* Frameworks */,
+				EF7C66DB258ECBE700B322B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF7C66DF258ECBE700B322B6 /* PBXTargetDependency */,
+			);
+			name = PlatziChallengeUITests;
+			productName = PlatziChallengeUITests;
+			productReference = EF7C66DD258ECBE700B322B6 /* PlatziChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF7C66B4258ECBE600B322B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					EF7C66BB258ECBE600B322B6 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					EF7C66D1258ECBE700B322B6 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = EF7C66BB258ECBE600B322B6;
+					};
+					EF7C66DC258ECBE700B322B6 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = EF7C66BB258ECBE600B322B6;
+					};
+				};
+			};
+			buildConfigurationList = EF7C66B7258ECBE600B322B6 /* Build configuration list for PBXProject "PlatziChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF7C66B3258ECBE600B322B6;
+			productRefGroup = EF7C66BD258ECBE600B322B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF7C66BB258ECBE600B322B6 /* PlatziChallenge */,
+				EF7C66D1258ECBE700B322B6 /* PlatziChallengeTests */,
+				EF7C66DC258ECBE700B322B6 /* PlatziChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF7C66BA258ECBE600B322B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF55CCA8259033C4006E4A52 /* API-keys.plist in Resources */,
+				EF7C66CC258ECBE700B322B6 /* LaunchScreen.storyboard in Resources */,
+				EF7C66C9258ECBE700B322B6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7C66D0258ECBE700B322B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7C66DB258ECBE700B322B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF7C66B8258ECBE600B322B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF55CCB32590383C006E4A52 /* PlistService.swift in Sources */,
+				EF7C66C4258ECBE600B322B6 /* CatsViewController.swift in Sources */,
+				EF20AA60258F187A006954FA /* UIView+Extension.swift in Sources */,
+				EF55CCAE2590380A006E4A52 /* CatsService.swift in Sources */,
+				EF20AA5B258F1856006954FA /* Color+Extension.swift in Sources */,
+				EF30133025918CB700C80234 /* CatViewModel.swift in Sources */,
+				EF20AA56258F1277006954FA /* CatsHeader.swift in Sources */,
+				EF55CCBD2590396B006E4A52 /* Cat.swift in Sources */,
+				EF30132B2591663300C80234 /* CatTraits.swift in Sources */,
+				EF7C66C0258ECBE600B322B6 /* AppDelegate.swift in Sources */,
+				EF30132625915E2D00C80234 /* CatDetailCell.swift in Sources */,
+				EF374D662591B69500529F79 /* CatTraitsViewModel.swift in Sources */,
+				EF7C66C2258ECBE600B322B6 /* SceneDelegate.swift in Sources */,
+				EF20AA6A258F1CF7006954FA /* CatDetailsViewController.swift in Sources */,
+				EF7DE468258EDBA600D9CCF4 /* CatCell.swift in Sources */,
+				EF55CCB8259038B0006E4A52 /* APIKey.swift in Sources */,
+				EF20AA72258F21B8006954FA /* Constants.swift in Sources */,
+				EF55CCC225903A76006E4A52 /* APIError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7C66CE258ECBE700B322B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7C66D7258ECBE700B322B6 /* PlatziChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7C66D9258ECBE700B322B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7C66E2258ECBE700B322B6 /* PlatziChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF7C66D4258ECBE700B322B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF7C66BB258ECBE600B322B6 /* PlatziChallenge */;
+			targetProxy = EF7C66D3258ECBE700B322B6 /* PBXContainerItemProxy */;
+		};
+		EF7C66DF258ECBE700B322B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF7C66BB258ECBE600B322B6 /* PlatziChallenge */;
+			targetProxy = EF7C66DE258ECBE700B322B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF7C66CA258ECBE700B322B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7C66CB258ECBE700B322B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF7C66E4258ECBE700B322B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF7C66E5258ECBE700B322B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF7C66E7258ECBE700B322B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLVCX6QT78;
+				INFOPLIST_FILE = PlatziChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maquino.PlatziChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EF7C66E8258ECBE700B322B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLVCX6QT78;
+				INFOPLIST_FILE = PlatziChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maquino.PlatziChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EF7C66EA258ECBE700B322B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLVCX6QT78;
+				INFOPLIST_FILE = PlatziChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maquino.PlatziChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlatziChallenge.app/PlatziChallenge";
+			};
+			name = Debug;
+		};
+		EF7C66EB258ECBE700B322B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLVCX6QT78;
+				INFOPLIST_FILE = PlatziChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maquino.PlatziChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlatziChallenge.app/PlatziChallenge";
+			};
+			name = Release;
+		};
+		EF7C66ED258ECBE700B322B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLVCX6QT78;
+				INFOPLIST_FILE = PlatziChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maquino.PlatziChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlatziChallenge;
+			};
+			name = Debug;
+		};
+		EF7C66EE258ECBE700B322B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLVCX6QT78;
+				INFOPLIST_FILE = PlatziChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maquino.PlatziChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlatziChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF7C66B7258ECBE600B322B6 /* Build configuration list for PBXProject "PlatziChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7C66E4258ECBE700B322B6 /* Debug */,
+				EF7C66E5258ECBE700B322B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7C66E6258ECBE700B322B6 /* Build configuration list for PBXNativeTarget "PlatziChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7C66E7258ECBE700B322B6 /* Debug */,
+				EF7C66E8258ECBE700B322B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7C66E9258ECBE700B322B6 /* Build configuration list for PBXNativeTarget "PlatziChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7C66EA258ECBE700B322B6 /* Debug */,
+				EF7C66EB258ECBE700B322B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7C66EC258ECBE700B322B6 /* Build configuration list for PBXNativeTarget "PlatziChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7C66ED258ECBE700B322B6 /* Debug */,
+				EF7C66EE258ECBE700B322B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF7C66B4258ECBE600B322B6 /* Project object */;
+}
