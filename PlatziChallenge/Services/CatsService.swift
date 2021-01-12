@@ -10,7 +10,7 @@ import UIKit
 class CatsService {
     
     //MARK: - Properties
-    static let shared   = CatsService()
+    static let shared = CatsService()
     private let apiKey = PlistService.getPlistKey(key: .apiKey)
     let cache = NSCache<NSString, UIImage>()
     

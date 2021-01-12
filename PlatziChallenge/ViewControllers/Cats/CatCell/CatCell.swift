@@ -42,6 +42,7 @@ class CatCell: UICollectionViewCell {
     
     func reset() {
         self.textLabel.textAlignment = .center
+        self.imageView.image = Images.emptyCat
     }
     
     private func loadImage(fromURL: String) {
